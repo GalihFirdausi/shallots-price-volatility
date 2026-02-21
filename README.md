@@ -5,7 +5,7 @@ Price volatility of shallots is an important issue because shallots are one of t
 - To analyze the relationship between weather factors and shallot price volatility in North Sulawesi.
 # Dataset Overview
 The dataset contains daily shallot price data in North Sulawesi from 2020-01-02 to 2025-09-20, consisting of 1,864 rows and 22 columns. The dataset includes price information, time-based features, rolling and lag variables, macroeconomic indicators, and weather data.
-# Data understanding
+# Data Understanding
 - Prices (target)
 Represents the daily market price of bawang merah in North Sulawesi and is the main variable analyzed.
 - Time columns (date, month, weekday)
