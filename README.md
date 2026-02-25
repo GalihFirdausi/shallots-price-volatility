@@ -1,10 +1,16 @@
 # Problem Statement
-Price volatility of shallots is an important issue because shallots are one of the most essential ingredients in daily Indonesian cooking. Fluctuations in shallot prices affect not only farmers and sellers, but also consumers and overall food inflation. Understanding price movements in North Sulawesi from 2020 to 2025 can provide insights into market behavior and potential risk factors. 
+Shallot prices are a key driver of household food expenses in North Sulawesi. Understanding price volatility helps policymakers and producers anticipate price spikes and manage food inflation risk. 
 # Objective
 - To analyze shallot price volatility in North Sulawesi from 2020 to 2025 using SQL.
 - To analyze the relationship between weather factors and shallot price volatility in North Sulawesi.
 # Dataset Overview
-The dataset contains daily shallot price data in North Sulawesi from 2020-01-02 to 2025-09-20, consisting of 1,864 rows and 22 columns. The dataset includes price information, time-based features, rolling and lag variables, macroeconomic indicators, and weather data.
+The dataset contains daily shallot price data in North Sulawesi from 2020-01-02 to 2025-09-20, consisting of 1,864 rows and 22 columns. The dataset includes: 
+- price information,
+- time-based features (date, month, weekday),
+- rolling averages (short-term price fluctuations),
+- lag variables (past prices),
+- macroeconomic indicators (CPI, USD/IDR),
+- weather data (temperature, rainfall, humidity).
 # Data Understanding
 - Prices (target)
 Represents the daily market price of bawang merah in North Sulawesi and is the main variable analyzed.
@@ -22,11 +28,9 @@ Weather variables may affect supply conditions and price volatility.
 - How did the average shallot price change over time from 2020 to 2025?
 - What were the highest and lowest daily price changes?
 - Do prices different between days with high and low rainfall?
-- Do prices different between days with high and low temperature?
-- Do prices different between days with high and low humidity?
 - Are there certain seasons where shallot prices are generally higher?
 # Project Summary & Key Learnings
 - Analyzed shallot price volatility in North Sulawesi using SQL
 - Performed data cleaning, validation, and data type conversion
-- Identified periods of high price fluctuation
+- Identified periods of high volatility, seasonal price patterns, and mild weather-related price differences
 - Learned how missing dates and time-based features affect time series analysis
