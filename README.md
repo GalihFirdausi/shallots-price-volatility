@@ -13,7 +13,7 @@ The dataset contains daily shallot price data in North Sulawesi from 2020-01-02 
 - weather data (temperature, rainfall, humidity).
 # Data Understanding
 - Prices (target)
-Represents the daily market price of bawang merah in North Sulawesi and is the main variable analyzed.
+Represents the daily market price of shallot in North Sulawesi and is the main variable analyzed.
 - Time columns (date, month, weekday)
 The dataset is daily, but some dates are missing, likely due to non-trading days.
 - Rolling means
@@ -34,3 +34,5 @@ Weather variables may affect supply conditions and price volatility.
 - Performed data cleaning, validation, and data type conversion
 - Identified periods of high volatility, seasonal price patterns, and mild weather-related price differences
 - Learned how missing dates and time-based features affect time series analysis
+# Dashboard Preview
+<img width="1859" height="610" alt="image" src="https://github.com/user-attachments/assets/6918a056-d2c9-4d72-9c5b-73a0d01569fc" />
